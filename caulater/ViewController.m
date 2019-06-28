@@ -13,7 +13,7 @@
 @property(nonatomic,strong) CBCentralManager* myManager;
 @property(nonatomic,strong) CBPeripheral* myPeripheral;
 @property(nonatomic,strong) NSMutableArray<NSString*>* nameArray;//testGit
-@end
+@end//tessAgain245
 
 @implementation ViewController
 
