@@ -37,7 +37,9 @@
 -(void)centralManager:(CBCentralManager *)central didDiscoverPeripheral:(CBPeripheral *)peripheral advertisementData:(NSDictionary<NSString *,id> *)advertisementData RSSI:(NSNumber *)RSSI
 {
     if([peripheral.name isEqualToString:@"许远备的MacBook Air"])
-    {
+    {  
+        
+        //代伟注释
         self.myPeripheral=peripheral;
         self.myPeripheral.delegate=self;
             [self.myManager connectPeripheral:self.myPeripheral options:nil];
