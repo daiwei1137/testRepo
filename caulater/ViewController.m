@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.nameArray=[[NSMutableArray alloc]init];
+    //代伟注释
     // Do any additional setup after loading the view, typically from a nib.
    
  //  self.label1.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleLeftMargin;
