@@ -28,7 +28,7 @@
 //    NSLayoutConstraint* constraintHcenter=[NSLayoutConstraint constraintWithItem:self.label1 attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterX multiplier:1 constant:0];
     
 //   CBCentralManager* myCentralManager =
-    
+    //代伟注释
     self.myManager=[[CBCentralManager alloc] initWithDelegate:self queue:nil options:nil];
  //   self.myPeripheral=[[CBPeripheral alloc]init];
 
